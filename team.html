@@ -1,0 +1,13 @@
+---
+title: el equipo
+layout: default
+---
+<div class="team">
+    {% for member in site.data.team %}
+        <div class="member">
+            <img src={{member.avatar}}>
+            <span>{{member.name}}</span>
+            <span>{{member.descripcion}}</span>
+        </div>
+    {% endfor %}
+</div>

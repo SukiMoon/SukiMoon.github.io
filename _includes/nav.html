@@ -1,0 +1,16 @@
+<nav class="navigation">
+    
+    <!-- Add: funcionality (the button) and Icons (fontAsome) -->
+    <div id="nav-header">
+        <button id="open-close"></button>
+        <a href="/">Icon</a>
+    </div>
+
+    <div id="site-links">
+        {% for item in site.data.navigation %}
+            <a href="{{ item.link }}" {% if page.url == item.link %} id="current" {% endif %}>
+                {{ item.name }}
+            </a>
+        {% endfor %}
+    </div>
+  </nav>

@@ -1,0 +1,12 @@
+---
+title: trabajos
+layout: default
+---
+{% for work in site.works %}
+    <div>
+        <a href={{work.url}}>
+            <h1>{{work.title}}</h1>
+            <p>{{work.sumary}}</p>
+        </a>
+    </div>
+{% endfor %}

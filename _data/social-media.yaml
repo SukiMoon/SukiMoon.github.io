@@ -1,0 +1,10 @@
+# Add More social medias
+# Add The links
+# Add the fontAsome icons
+
+- name: Facebook
+  link: facebook.com
+  fontAsomeIcon: className
+- name: Instagram
+  link: instagram.com
+  fontAsomeIcon: className

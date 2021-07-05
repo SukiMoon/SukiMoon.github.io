@@ -1,0 +1,19 @@
+<footer>
+    <div id="recent">
+        <h1>Recientes</h1>
+        <div>
+            <!-- Añadir elementos recientes -->
+        </div>
+    </div>
+
+    <div id="more">
+        <p>Suki Moon Fansub</p>
+        <div id="social-media">
+            {% for item in site.data.social-media %}
+                <a href="{{ item.link }}" class={{item.fontAsomeIcon}}>
+                {{ item.name }}
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</footer>
