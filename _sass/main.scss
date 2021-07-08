@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,300&display=swap');
+
+body, html {
+    padding: 0;
+    margin: 0;
+    color: $color-text;
+    font-family: 'Roboto Mono', monospace;
+}
+
+// General Styles 
+#content {
+    margin: auto;
+    width: $max-width;
+}
+.navigation {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        padding: 5px;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: $color-regular;
+        }
+    }
+
+
+    button {
+        background-color: none;
+        border: none
+    }
+}
+
+footer {
+    background-color: $color-strong;
+    
+    >* {
+        padding: 5px;
+    }
+    
+    #more {
+        background-color: $color-dark;
+        color: $color-regular;
+
+        a {
+            color: $color-light;
+
+            :hover {
+                color: $color-strong;
+            }
+        }
+
+        >* {
+            display: inline-block;
+        }
+    }
+}
+/* Smaller smartphones */
+@media (max-width: 480px) {
+
+}
+
+
+/* Bigger Devices */
+@media (min-width: 480px) {
+    .navigation {
+        > * {
+            display: inline-block;
+        }
+        
+        button {
+            display: none;
+        }
+
+        #site-links {
+            float: right;
+        }
+    }
+}
