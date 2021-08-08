@@ -2,11 +2,11 @@
 title: trabajos
 layout: default
 ---
-{% for work in site.works %}
+{% for post in site.posts %}
     <div>
-        <a href={{work.url}}>
-            <h1>{{work.title}}</h1>
-            <p>{{work.sumary}}</p>
+        <a href={{post.url}}>
+            <h1>{{post.title}}</h1>
+            <p>{{post.sumary}}</p>
         </a>
     </div>
 {% endfor %}

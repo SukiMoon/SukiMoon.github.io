@@ -4,10 +4,16 @@ layout: default
 ---
 <div class="team">
     {% for member in site.data.team %}
+        {% assign image_url = "assets/images/avatar/" | append: member.avatar%}
         <div class="member">
-            <img src={{member.avatar}}>
-            <span>{{member.name}}</span>
-            <span>{{member.descripcion}}</span>
+            <div class="avatar">
+                <img src={{image_url}}>
+            </div>
+            
+            <div class="data">
+                <span>{{member.name}}</span>
+                <span>{{member.descripcion}}</span>
+            </div>
         </div>
     {% endfor %}
 </div>

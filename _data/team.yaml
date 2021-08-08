@@ -1,7 +1,17 @@
 # Pedir los verdaderos datos del fansub
 # Añadir/crear las imagenes
-- name: Juanito de tal
-  avatar: url
-  descripcion: hol que hace
-- name: panchito de tal
-- name: marquitos del tal
+- name: Persona 1
+  avatar: avatar-place-holder.jpg
+  descripcion: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel ligula non sem volutpat congue.
+    Donec sed nisl sit amet dui auctor imperdiet. Morbi quis volutpat nisl, sit amet consequat nibh. Aliquam erat volutpat.
+- name: Persona 2
+  avatar: avatar-place-holder.jpg
+  descripcion: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel ligula non sem volutpat congue.
+    Donec sed nisl sit amet dui auctor imperdiet. Morbi quis volutpat nisl, sit amet consequat nibh. Aliquam erat volutpat.
+- name: Persona 3
+  avatar: avatar-place-holder.jpg
+  descripcion: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel ligula non sem volutpat congue.
+    Donec sed nisl sit amet dui auctor imperdiet. Morbi quis volutpat nisl, sit amet consequat nibh. Aliquam erat volutpat.

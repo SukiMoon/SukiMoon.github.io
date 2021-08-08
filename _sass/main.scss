@@ -8,10 +8,11 @@ body, html {
 }
 
 // General Styles 
-#content {
+#content, .team {
     margin: auto;
     width: $max-width;
 }
+
 .navigation {
     width: 100%;
     padding: 10px;
@@ -57,6 +58,24 @@ footer {
 
         >* {
             display: inline-block;
+        }
+    }
+}
+
+.team {
+    .member {
+        display: block;
+        margin: 10px 0 10px 0;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: $color-light;
+
+        >* {
+            display: inline-block;
+        }
+
+        .avatar {
+            height: 100%;
         }
     }
 }

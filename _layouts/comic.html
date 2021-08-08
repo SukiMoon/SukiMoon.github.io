@@ -1,0 +1,7 @@
+
+<!-- work: nombre del trabajo y de la carpeta donde esta el trabajo -->
+{% for image in site.static_files %}
+  {% if image.path contains page.work %}
+    <img src="{{ image.path }}" alt="">
+  {% endif %}
+{% endfor %}
